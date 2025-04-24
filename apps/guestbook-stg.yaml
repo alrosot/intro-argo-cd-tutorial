@@ -14,7 +14,7 @@ spec:
         - values-stg.yaml
   destination:
     namespace: guestbook-stg
-    name: dev
+    name: workshop-environment
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
